@@ -6,5 +6,8 @@ var submit = document.getElementById("submit-me")
 submit.addEventListener("submit", (e) => {
   e.preventDefault() 
   var name = document.getElementById("name").value
-  alert(name)
-} )
+  alert(name);
+
+var age = document.getElementById("age").value
+  alert(age)
+})
